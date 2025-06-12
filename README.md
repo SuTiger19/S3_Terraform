@@ -1,9 +1,6 @@
 # S3_Terraform
 
 
-Here's a clean, human-readable `README.md` document for your GitHub project that organizes both **Module 1** and **Module 2** clearly, using plain language and no special formatting. You can copy this into your GitHub repo:
-
----
 
 # Gateway DataSecure Inc. - Secure Document Storage & Web Upload System
 
@@ -11,7 +8,7 @@ This project implements a secure, scalable document storage system and a browser
 
 ---
 
-## 🔐 Module 1: Secure Document Storage System
+##  Module 1: Secure Document Storage System
 
 ### Objective
 
@@ -30,4 +27,14 @@ To design a secure Amazon S3-based document storage solution meeting regulations
 
 * Created bucket: `gateway-datasecure-inc-docs-XXXX` in `us-east-1`
 * Enabled **SSE-KMS** encryption using a customer-managed key with rotation
+
+#### ✅ Task 2: Bucket Policy
+
+* Enforced HTTPS-only access via bucket policy
+* Granted permissions to the provided `LabRole`
+
+#### ✅ Task 3: Lifecycle Management
+
+* Transition to **Standard-IA** after 30 days
+* Transition to **Glacier** after 90 days
 
