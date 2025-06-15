@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const fileInput = document.getElementById('document');
 
     AWS.config.update({
-        accessKeyId:"ASIAZI2LCTZRDURNDLEW", secretAccessKey: 'On0C1J4e8X8MphFbAceoDVDEiDRlkizDjNmmwjz8',
+        accessKeyId:"PUT UR ACESS KEY", secretAccessKey: 'PUT UR SECERT ACESSKEY',
        // accessKeyId = "" ,
        // secretAccessKey = ""
 
